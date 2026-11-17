@@ -1,7 +1,7 @@
 # Graph memory demo
 
 A runnable version of the talk *Beyond Vector Memory: temporal graph memory for
-conversational agents with Neo4j* (`n.html`). An agent's memory is a bi-temporal
+conversational agents with Neo4j* . An agent's memory is a bi-temporal
 knowledge graph: entities are nodes, facts are edges with two clocks, and old
 facts are invalidated rather than deleted.
 

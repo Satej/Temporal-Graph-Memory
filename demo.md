@@ -1,6 +1,6 @@
 # Demo script
 
-How to present the demo during *Beyond Vector Memory* (`n.html`). About 5 minutes in
+How to present the demo during *Beyond Vector Memory* . About 5 minutes in
 total; steps 1 and 2 carry the core message and can stand alone.
 
 ## Before the talk
