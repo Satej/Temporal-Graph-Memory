@@ -1,0 +1,24 @@
+[project]
+name = "graph-memory-demo"
+version = "0.1.0"
+description = "Temporal graph memory for conversational agents on Neo4j (demo)"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "neo4j>=6.4.1",
+    "openai>=1.60",
+    "pydantic>=2.14.3"
+]
+
+[project.optional-dependencies]
+local = ["sentence-transformers>=3"]
+
+[project.scripts]
+graph-memory = "graph_memory.cli:main"
+
+[tool.uv.build-backend]
+module-name = "graph_memory"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
